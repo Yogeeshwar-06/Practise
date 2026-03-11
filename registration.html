@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form autocomplete="off">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" placeholder="Enter First Name" required>
+        <br><br>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" placeholder="Enter Last Name" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <br><br>
+        <label for="gender" > Gender: </label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="    male"> Male</label> 
+        <input type="radio" name="gender" id="female" value="female">       
+        <label for="female"> Female</label>
+        <label for="other"> Other</label>
+        <input type="radio" name="gender" id="other" value="other">
+        <br><br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="0" max="120">
+        <br><br>
+         <label> Preferences: </label>
+    
+    <lable for="acrylicpainting"> Acrylic Painting</lable>
+    <input type="checkbox" name=" preferences" id="acrylicpainting" value="acrylicpainting">
+    
+    <lable for="oilpainting"> Oil Painting</lable>
+    <input type="checkbox" name="preferences" id="oilpainting" value="oilpainting">
+    
+    <lable for="watercolor"> Water color Painting</lable>
+    <input type="checkbox" name="preferences" id="watercolor" value="watercolor"><br><br>
+
+    <label for="occupation"> Occupation:</label>
+    <select name="occupation" id="occupation">
+        <option value="">--Select--</option>
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="engineer">Engineer</option>
+        <option value="doctor">Doctor</option>
+    </select>
+    <br><br>
+    <lable for="bio"> Bio:</lable>
+    <textarea name="bio" id="bio" maxlength="200" placeholder="Share about your self"></textarea><br><br>
+
+
+
+
+
+
+
+
+
+
+
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
